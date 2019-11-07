@@ -17,7 +17,8 @@
         question 3 (10%)
         將表單的目標設定爲 addOrder，使用 post
         -->
-        <form>
+        <form action="order.jsp" method="POST">
+            
             <select name="food">
                 <option value="氧氣草">氧氣草</option>
                 <option value="惡魔果實">惡魔果實</option>
@@ -26,6 +27,7 @@
                 <option value="哥吉拉">哥吉拉</option>
             </select>
             <input type="submit"/>
+            
         </form>
        
     </body>

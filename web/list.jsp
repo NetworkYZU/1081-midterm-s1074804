@@ -22,13 +22,14 @@
                 <th>項目</th>
             </thead>
             <tbody>
+           
                 <!--
                 question 1 (30%)
                 從 session 取得 foodList 這個 attribute 
                 將 foodList 裏面的每個字串列成 table 的一列
                 例如
                 <tr><td>烤雞腿</td></tr>
-                -->
+                -->    
                 
             </tbody>
         </table>
@@ -37,5 +38,6 @@
         question 2 (10%)
         引用 /WEB-INF/footer.jsp
         -->
+        <jsp:include page="WEB-INF/footer.jsp"/>
     </body>
 </html>
